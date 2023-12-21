@@ -1,3 +1,15 @@
+body{
+    cursor: url("../assets/cursor/yugicursor.png"),default;
+}
+
+button,
+a,
+img:hover,
+button:hover,
+a:hover{
+    cursor: url("../assets/cursor/yamiyugicursorGLOW.png"),auto;
+}
+
 .bg-video{
     position: absolute;
     z-index: -2;
@@ -36,6 +48,7 @@
 }
 
 .container__left{
+    display: flex;
     width: 35%;
     min-width: 300px;
     flex-direction: column;
@@ -121,4 +134,17 @@
     border: 1px solid white;
     width: 8rem;
     border-radius: 5px;
+}
+
+.card{
+    transition: transform 0.2s;
+
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+.debug {
+    border: 1px solid green;
 }
