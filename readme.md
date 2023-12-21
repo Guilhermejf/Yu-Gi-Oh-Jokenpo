@@ -1,5 +1,7 @@
 # Yu-Gi-Oh | Jo-ken-po Edition
 
+[Deploy](https://guilhermejf.github.io/Yu-Gi-Oh-Jokenpo/)
+
 Jogo de jokenpo que criei para explicar conceitos de lógica de programação aplicados a jogos
 
 conceitos abordados:
